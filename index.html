@@ -51,15 +51,15 @@
                 </div>
                 <div class="about-stats">
                     <div class="stat">
-                        <h3>1+</h3>
+                        <h3>50+</h3>
                         <p>Games Developed</p>
                     </div>
                     <div class="stat">
-                        <h3>200+</h3>
-                        <p>Players in the USA and Worldwide</p>
+                        <h3>1M+</h3>
+                        <p>Players Worldwide</p>
                     </div>
                     <div class="stat">
-                        <h3>2</h3>
+                        <h3>15+</h3>
                         <p>Team Members</p>
                     </div>
                 </div>
@@ -73,16 +73,16 @@
             <h2>Our Team</h2>
             <div class="team-grid">
                 <div class="team-member">
-                    <div class="member-avatar">😎</div>
+                    <div class="member-avatar"></div>
                     <h3>Vision</h3>
                     <p class="role">Owner/Lead Dev</p>
                     <p>Founder and lead developer of VisionVT Entertainment.</p>
                 </div>
                 <div class="team-member">
-                    <div class="member-avatar">📖</div>
+                    <div class="member-avatar">🛡️</div>
                     <h3>BaltTheFirst</h3>
                     <p class="role">Lead Story Board Director</p>
-                    <p>"I can cook with storys in games."</p>
+                    <p>Great at Storytelling in games.</p>
                 </div>
             </div>
         </div>
@@ -92,7 +92,23 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Have questions or want to collaborate? Reach out at <a href="mailto:info@visionvt.com">info@visionvt.com</a>.</p>
+            <p>Have questions or want to collaborate? Reach out at <a href="mailto:VisionVTBusiness@gmail.com">VisionVTBusiness@gmail.com</a>.</p>
+            <div class="newsletter">
+                <h3>Game Updates Newsletter</h3>
+                <p>Subscribe to our newsletter and we'll send you the latest news, updates, and exclusive previews for all our games.</p>
+                <!-- Netlify Forms: no action URL needed, just include data-netlify attribute -->
+                <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
+                    <!-- hidden field required by Netlify -->
+                    <input type="hidden" name="form-name" value="newsletter">
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <!--
+                    After deployment Netlify will capture submissions for this form.
+                    You can view them in the Netlify dashboard under "Forms" for your site,
+                    or configure email notifications / integrate with Zapier, Mailchimp, etc.
+                -->
+            </div>
         </div>
     </section>
 
